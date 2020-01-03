@@ -30,7 +30,7 @@ int main () {
 
 	FILE * fp, *resFp;
 	fp = fopen ("input.txt", "r");
-	resFp = fopen("Result.txt", "a+");
+	resFp = fopen("Sum.txt", "a+");
 	fscanf(fp, "%s\n%s\n", str1, str2);
 
 	if(strlen(str1) < strlen(str2)) { // Adjust the number length
